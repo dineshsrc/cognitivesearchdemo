@@ -19,8 +19,7 @@ Where customer can go and download the files by clicking on the file name.
 
 
 ## High Level Architecture Diagram
-
-
+![azure-ai-cognitive-serach-xenonstack](https://user-images.githubusercontent.com/52231685/78991118-d1c4e580-7b55-11ea-97ec-3dbf4391ee2b.png)
 
 ## Step Flow
 ### Flow
@@ -36,11 +35,11 @@ Where customer can go and download the files by clicking on the file name.
 * Integrate cognitive search from UI application
 
 ## Technical Diagram
-
+![download](https://user-images.githubusercontent.com/52231685/78991263-2c5e4180-7b56-11ea-9141-4573584b6ca7.png)
 
 ## Included components
 
-* [Azure blob storage](https://azure.microsoft.com/en-in/services/storage/blobs/): Store any type of unstructured data—including images, videos, audio, documents and backups—with proven technology at exabyte scale. Blob storage handles trillions of stored objects, with millions of average requests per second, for customers around the world.
+* [Azure blob storage](https://azure.microsoft.com/en-in/services/storage/blobs/): Store any type of unstructured dataâ€”including images, videos, audio, documents and backupsâ€”with proven technology at exabyte scale. Blob storage handles trillions of stored objects, with millions of average requests per second, for customers around the world.
 
-* [Azure cognitive services](https://azure.microsoft.com/en-in/services/cognitive-services/): Cognitive Services bring AI within reach of every developer—without requiring machine-learning expertise. All it takes is an API call to embed the ability to see, hear, speak, search, understand and accelerate decision-making into your apps.
+* [Azure cognitive services](https://azure.microsoft.com/en-in/services/cognitive-services/): Cognitive Services bring AI within reach of every developerâ€”without requiring machine-learning expertise. All it takes is an API call to embed the ability to see, hear, speak, search, understand and accelerate decision-making into your apps.
 
