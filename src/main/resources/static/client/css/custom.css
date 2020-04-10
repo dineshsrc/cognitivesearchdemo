@@ -1,0 +1,80 @@
+
+	body{
+		margin: 0px !important;
+	}
+	header, footer {
+		min-height: 60px;
+		background-color:#0039a6;
+		color: #fff;
+	}
+	header {		
+		font-size: 20px;
+	}
+	.header-div {
+		    color: #00b140;
+	}
+	.header-div span {
+		margin-left: 15%;
+	}
+	.main, .details {
+		text-align: center;
+		padding-top: 50px;
+		min-height: 300px;
+	}
+	.main h4 {
+		color: #676565;
+	}
+	.btn-div {
+		margin-top: 25px;
+	}
+	.output-button {
+	  position: relative;
+	  display: block;
+	  width: 200px;
+	  height: 36px;
+	  border-radius: 18px;
+	  background-color: #1c89ff;
+	  border: solid 1px transparent;
+	  color: #fff;
+	  font-size: 18px;
+	  font-weight: 300;
+	  cursor: pointer;
+	  transition: all .1s ease-in-out;
+	}	
+	  .output-button:hover {
+	    background-color: transparent;
+	    border-color: #fff;
+	    transition: all .1s ease-in-out;
+  	  }
+	input.img-file {
+	  display: inline-block;
+	  width: 100%;
+	  padding: 280px 0 0 0;
+	  height: 250px;
+	  overflow: hidden;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	  background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png') center center no-repeat #f1ecec;
+	  border-radius: 20px;
+	  background-size: 60px 60px;
+	  border: 2px dashed #ccc;
+	}
+	.img-small {
+		width: 100px;
+		height: 100px;
+	}
+	.percentage-div {
+		vertical-align: middle;
+	}
+	#blah {
+		width: 200px;
+		height: 250px;
+	}
+	.img-container {
+	border-radius: 20px;
+	border: 2px dashed #ccc;
+	}
+	.nav-bar span {
+	    margin-left: 10%;
+	}

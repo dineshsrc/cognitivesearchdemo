@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	
+	<head>
+       	<meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+    	<meta http-equiv="expires" content="Sat, 31 Oct 2014 00:00:00 GMT" />
+   		<meta http-equiv="pragma" content="no-cache" />
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta charset="UTF-8" />        
+        <title>Cognitive Search Demo</title>
+		<!-- build:css css/client/libs.css -->
+        <link rel="stylesheet" media="screen" href="/client/css/bootstrap.css" />
+        <link rel="stylesheet" media="screen" href="/client/css/custom.css" />
+        <link rel="stylesheet" media="screen" href="/client/css/select2.css" />
+        <link rel="stylesheet" media="screen" href="/client/css/styles.css" />
+        <link rel="stylesheet" media="screen" href="/client/css/site.css" />
+        <!-- endbuild -->
+    	<!-- inject:css -->
+    	<!-- endinject -->
+    </head>
+    <body ng-app="cscApp">
+    
+  	<div id="main">
+	  <div dash-nav=""></div>
+      <div ng-view=""></div>
+	</div>
+	<div ng-class="{'loading modal-backdrop in' : webServiceConfig.showServicePopup}">
+	    <div class="content">
+	        <div class="img"></div>
+	        <div class="message">{{webServiceConfig.serviceMessage}}</div>
+	    </div>
+	</div>
+		<!-- build:libsJs js/client/libs.js -->
+        <script src="/client/lib/jquery.min.js"></script>
+        <script src="/client/lib/jquery-ui.min.js"></script>
+        <script src="/client/lib/angular.js"></script>
+        <script src="/client/lib/angular-sanitize.js"></script>
+        <script src="/client/lib/sortable.min.js"></script>
+        <script src="/client/lib/angular-route.js"></script>
+        <script src="/client/lib/angular-ui-router.js"></script>
+        <script src="/client/lib/ui-bootstrap-0.10.0.min.js"></script>
+       	<script src="/client/lib/select2.js"></script>
+        <script src="/client/lib/angular-select2.js"></script>
+        <script src="/client/lib/angular-file-saver.bundle.min.js"></script>
+		<!-- endbuild -->
+		
+		<!-- build:js js/eos-ui.js -->            
+        <script src="/client/js/app.js"></script>
+        <script src="/client/js/controllers/mainCtrl.js"></script>
+        <script src="/client/js/directives/dashNav.js"></script>
+        <script src="/client/js/directives/percentageFilter.js"></script>
+        <script src="/client/js/controllers/dashNavCtrl.js"></script>
+        <script src="/client/js/services/loaderSvc.js"></script>
+        <script src="/client/js/services/cognitiveSvc.js"></script>
+        <!-- endbuild -->
+    	<!-- inject:js -->
+    	<!-- endinject -->
+    </body>
+</html>

@@ -1,0 +1,16 @@
+spring:
+ application:
+  name: CognitiveSearchDemo
+ profiles:
+  active: dev
+ freemarker:
+  enabled: false
+ thymeleaf:
+  cache: false             
+  prefix: classpath:/ui-server/templates/
+error:
+  path: /error 
+
+# HTTP Server
+server:
+  port:8080 
